@@ -366,14 +366,15 @@
     display: block;
     margin: 0 auto;
     position: relative;
-    width: 306px;
+    width: 1000px;
     height: 0;
 }
 .blurred-container .motto .border{
-    float: left;
+    float: inline-end;
     border: 3px solid #FFFFFF;
     padding: 0px 30px;
     text-align: center;
+    width: 100%;
 }
 .blurred-container .motto .no-right-border{
     border-right: none;
