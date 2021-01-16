@@ -1,7 +1,14 @@
 
 .tim-container{
     background: #ffffff;
+}
 
+.tablecourses{
+    width:100%;
+}
+
+.tablenames{
+    background-color: #FF3B30;
 }
 .tim-row{
     margin-bottom: 20px;

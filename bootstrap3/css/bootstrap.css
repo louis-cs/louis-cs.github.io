@@ -285,6 +285,9 @@ table {
   .table {
     border-collapse: collapse !important;
   }
+
+
+
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
@@ -346,6 +349,7 @@ img {
   display: block;
   height: auto;
   max-width: 100%;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .img-rounded {
@@ -467,6 +471,10 @@ cite {
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 h1,
