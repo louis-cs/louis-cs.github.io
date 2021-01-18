@@ -292,7 +292,11 @@
       <table class="table-striped table table-bordered tablecourses">
         <thead class="tablenames">
           <tr class="maincolorbg">
-            <th><span class="ml-2 mt-0 whitecolo multiline-prop">Skill</span></th>
+            <th><span class="ml-2 mt-0 whitecolo multiline-prop">Skill
+              <button class="btn btn-primary btn-xs btn-round" data-toggle="modal" data-target="#matrixModal">
+                <span class="glyphicon glyphicon-question-sign"></span>
+              </button>
+            </span></th>
             <th><span class="ml-2 mt-0 whitecolo multiline-prop">Required level</span></th>
             <th><span class="ml-2 mt-0 whitecolo multiline-prop">Self-evaluation</span></th>
           </tr>
@@ -364,6 +368,31 @@
           </tr>
         </tbody>
       </table>
+    </div>
+  </div>
+  <div class="modal fade" id="matrixModal" tabindex="-1" role="dialog" aria-labelledby="matrixModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="matrixModalLabel">How to read the skills matrix?
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </h5>
+          
+        </div>
+        <div class="modal-body">
+          <p class="mb-2">
+            There a four levels of expertise that can be obtainned in any skill present in the matrix:
+          </p>
+          <ul>
+            <li><b>1</b> - level of application: follow-up of instructions or procedures </li>
+            <li><b>2</b> - level of analysis: improvement or optimization of solutions or proposals </li>
+            <li><b>3</b> - level of control: program design or specification definitions</li>
+            <li><b>4</b> - level of expertise: definition of orientations or strategies</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>
