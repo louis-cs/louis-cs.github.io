@@ -592,6 +592,13 @@ h6,
   border-bottom: 1px solid #eeeeee;
 }
 
+.page-header-communication{
+  height: 300px;
+  margin-top: 0px;
+  background-size: cover;
+  background-image: url("../../assets/img/communication.jpg");
+}
+
 ul,
 ol {
   margin-top: 0;
@@ -3514,6 +3521,16 @@ input[type="button"].btn-block {
   overflow: hidden;
   background-color: #e5e5e5;
 }
+
+.h-divider{
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  height:1px;
+  width:50%;
+  border-top:1px solid gray;
+ }
 
 .dropdown-menu > li > a {
   display: block;
