@@ -72,6 +72,8 @@
                       <li role="presentation"><a role="menuitem" tabindex="-1" href="../courses/innovativeproject.html">Innovative Project</a></li>
       
                       <li role="presentation"><a role="menuitem" tabindex="-1" href="../courses/humanity.html">Innovation and Humanity</a></li>
+                      
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="../courses/middleware.html">Middleware and Service</a></li>
 
                       <li role="presentation" class="divider"></li>
 
@@ -88,15 +90,7 @@
         </nav>
     </div><!--  end container-->
     
-    <div class='blurred-container'>
-        <div class="motto">
-            <div class="no-border">Louis Chauvet-Smart</div>
-            <div class="border">Portfolio</div>  
-            <div class="no-border">5ISS</div>
-        </div>
-        <div class="img-src" style="background-image: url('../assets/img/accueilinsa.jpg')"></div>
-        <div class='img-src blur' style="background-image: url('../assets/img/accueilinsaflou.jpg')"></div>
-    </div>
+    <div class='page-header-aime'></div>
     
 </div>     
     
@@ -106,8 +100,8 @@
 </div>
   <div class="row">
     <div class ="text-center">
-    <h1><b>Communications</b></h1>
-    <h3>Superviser: Daniela Dragomirescu</h3>
+    <h1><b>Smart Devices</b></h1>
+    <h3>Superviser: Jérémie Grisolia</h3>
     </div>
   </div>
 
@@ -116,7 +110,7 @@
       <div class="text-center">
         <div class="col-xs-6 col-xs-offset-3">
         <p>
-          Sample text 
+          Smart devices are absolutely everywhere in today's world. Using sensor information, they are the elemental brick of IoT. This course looks to follow the creation of a gas sensor, from its nano-particle based creation to its LoRa communication system. 
         </p>
       </div>
       </div>
@@ -128,38 +122,226 @@
   <div class="tim-title">
     <h2><b>Description</b></h2>
   </div>
-  <div class="row">
+  <div class="row text-justify">
+    <h4>Introduction to sensors</h4>
+    <p>
+      Lectures and tutorials about the physical concepts behind different types of sensor, as well as indications on how gather information and build a good data sheet    </p>
+  </div>
+  <div class="row text-justify">
+    <h4>CAD, manufacturing and integration of nano-technology sensors</h4>
+    <div class="col-md-3">
       <p>
-        sample text
-      </p>
+        This course was split into two very different parts: the first one being tutorials on how to develop a PCB for a gas sensor using KiCad, the other being a practical lab where we created a gas sensor from a silicium board and gas-sensitive nano particles      </p>
+    </div>
+    <div class="col-md-7">
+      <table class="table-striped table table-bordered tablecourses">
+        <thead class="tablenames">
+          <tr>
+            <th><h6 class="ml-2 mt-0">Experience Type</h6></th>
+            <th><h6 class="ml-2 mt-0">Function</h6></th>
+            <th><h6 class="ml-2 mt-0">Context And mission</h6></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="ml-2">Lab</span></td>
+            <td><span class="ml-2">Lab participant</span></td>
+            <td><span class="ml-2">Creation of a gas sensor, from the synthesising of gas sensistive nano particles to the creation of a circuit from a silicium board to receive the nanoparticles</span></td>
+          </tr>
+          <tr>
+            <td><span class="ml-2"><b>Data Sheet</b></span></td>
+            <td><span class="ml-2"><b>Data gathering and Co-Author</b></span></td>
+            <td><span class="ml-2"><b>Creation of a data sheet for our gas sensor based on measurements made during the lab</b></span></td>
+          </tr>
+          <tr>
+            <td><span class="ml-2">CAD PCD shield</span></td>
+            <td><span class="ml-2">Schematic user</span></td>
+            <td><span class="ml-2">Creation of a PCB shield for our gas sensor using KiCAD</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row text-justify">
+    <h4>Analog Electronic labs</h4>
+    <p>
+      This short practical lab was aimed at creating the analog electronic circuit used to convert the output voltage of our sensor to a useful 1V to 5V signal  
+    </p>
+  </div>
+  <div class="row text-justify">
+    <h4>Microcontrollers and Open-Source Hardware (M&OSH)</h4>
+    <div class="col-md-4">
+      <p>
+        Project aimed at setting up the connectivity of our gas sensor to the Things Network through the use of an Arduino board and a LoRa communication module.      </p>
+    </div>
+    <div class="col-md-6 text-justify">
+      <table class="table-striped table table-bordered tablecourses">
+        <thead class="tablenames">
+          <tr>
+            <th><h6 class="ml-2 mt-0">Experience Type</h6></th>
+            <th><h6 class="ml-2 mt-0">Function</h6></th>
+            <th><h6 class="ml-2 mt-0">Context And mission</h6></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="ml-2"><b>Project and report</b></span></td>
+            <td><span class="ml-2"><b>Developer and co-author</b></span></td>
+            <td><span class="ml-2"><b>Development of a communication module for our gas sensor, using an Arduino board and a LoRa communication chip.</b></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 
+<div class="h-divider"></div>
 <div class="h-divider"></div>
 
 <div class="container tim-container">
   <div class="tim-title">
     <h2><b>Technical Challenges</b></h2>
   </div>
-  <div class="row">
-      <p>
-        sample text
+  <div class="row text-justify">
+    <p>
+      For this module, I'll analyse the technical challenges per project rather than per course: This was the most tightly-knit module of the semester, and it makes more sense to view it as a series of steps towards a goal than a group of courses.    
+    </p>
+    <h4>Introduction to sensors</h4>
+    <p>
+      This course had a lot of technical challenges for a computer science student like myself, as most of the notions covered were related to physics or electronics. The lectures were very informative on both the nature of sensors and the qualities of a good datasheet, and the tutorials reminded me of all the basic electronic equations used to solve electrical problems.    
+    </p>
   </div>
+  <div class="h-divider"></div>
+  <div class="row text-justify">
+    <h4>Building a gas sensor at AIME</h4>
+    <p>
+      One week of courses was dedicated to developing a gas sensor in a clean room. This creation process was comprised of a few stages:
+      <br>
+      create a silicium wafer to retrieve at least one functioning chip for the sensor: this was achieved through photolithography and acid baths. Both of these concepts were new, but had their roots in theoretical concepts I had learned the year prior, so I was able to follow along with no issue.
+      <br>
+      Create gas-sensitive nanoparticles through chemical synthesis. The entire synthesising process was examined under the ecological aspect, using four year old chemistry notions and optimising the process to produce as little noxious waste as possible.
+      <br>
+      Put the sensor together by depositing the nanoparticles on the chip through dielectrophoresis. This process stirred up electromagnetic notions from third year, and were a great illustration of the concepts I studied back then.
+      <br>
+      Overall, this experience managed to be incredibly formative, while re-exploring all the different course from first to fourth year I did not think I would get to use again. It definitely mobilised my academic science skills, as well as my precision during manipulations. Through measurement we did with our sensors in a controlled environment, we were able to extract data and create a data sheet too. A big hurdle at this point in the project was that our sensors were very inefficient, as the nanoparticles hadn't spent enough time in the over and weren't very sensitive. To still be an asset to the lab, we decided to shift the focus of our tests, and tested the resistance of our sensor under extreme heat conditions (upward of 300°C). This way, when we exchanged data with groups who had functioning sensors, they provided us with useful functional data, while we were able to give them information on the limits of the sensor. This experience was definitely a way to exercise my creative thinking and communication skills.    </p>
+  </div>
+  <div style="text-align: center;">
+    <a class="btn btn-primary" href="../assets/pdf/datasheet.pdf">Gas Sensor Datasheet</a>
+  </div>
+  <div class="h-divider"></div>
+  <div class="row text-justify">
+    <h4>Microcontrollers and Open-Source Hardware (M&OSH)</h4>
+    <p>
+      The first part of this module was surprisingly what would come last in the assembly line: the communication. We were supposed to have many tutorials to learn to use an Arduino board correctly, but because of the pandemic all these classes had to be done remotely, following along as a teacher did all of the manipulations. Following along was challenging, and when we finally got to the on-site project, I had to catching up to do when it came to programming on the Arduino. I first soldered a LoRa chip to connectors to link it to the Arduino, and established a connection with the Things Network. I managed to deal with uplink and downlink messages, and the next part was to integrate this communication module with our gas sensor and electronic circuit. However, because of the pandemic, we were never able to bring everything together, so we instead used commerce-available gas detectors to monitor air quality and visualise the data we would have hopefully measured with our own sensor.    </p>
+  </div>
+  <div style="text-align: center;">
+    <a class="btn btn-primary" href="../assets/pdf/mosh info dump.pdf">MOSH info dump</a>
+  </div>
+  <div class="row text-justify">
+    <h4>Analog electronics lab</h4>
+    <p>
+      This short lab was put in place to help us design an adaptative circuit to transform the low output voltage from the gas sensor to a usable range of 1V to 5V. Coming from a computer science background, I had no experience with the modelisation tool used: LTSpice. Learning to use it was definitely a new skill I developed, and it helped cultivate my electronics skills I hadn't worked in about two years. Sadly, this year, we could not bring all of the components together, so the circuit we designed stayed a concept.
+    </div>
+  <div class="row text-justify">
+    <h4>CAD</h4>
+    <p>
+      The final part of the project was supposed to be the designing and manufacturing of a PCB shield for our gas sensor, but that part of the project took place right as lockdown went into place, so it suffered a lot from it. Instead of designing my own card on KiCad, I watched a teacher design his through a series of tutorials I wasn't able to recreate at home. Although I was able to take a look at my colleagues' work and learned a lot from the tutorials, I did not get to design my PCB shield, and even if I did, we never got to manufacture them or bring all of the project's elements together to create our connected gas sensor.  </div>
 </div>
 
+<div class="h-divider"></div>
 <div class="h-divider"></div>
 
 <div class="container tim-container">
   <div class="tim-title">
     <h2><b>Analysis</b></h2>
   </div>
-  <div class="row">
+  <div class="row text-justify">
+    <div class="col-md-4">
       <p>
-        sample text
+        Of all the modules, Smart Devices was the one that was impacted by the pandemic the most. While it was the most elegant in how its courses were linked and complemented each other, the fact that on-site activities were so affected meant that the main project, building a gas sensor and integrating it to an online platform, could not be achieved. The different courses were definitely a great source of valuable experiences, and the AIME Lab week was one of my favourite experiences in my 5 years at INSA. 
+        <br>
+        Some of these skills I feel I acquired, even though I did not get to demonstrate: while I have all the theory and individual workings on how to assemble all these pieces into a smart device, I sadly did not get to assemble my gas sensor to the electronic circuit and the connected PCB. The only skill I think I was lacking was the actual using of KiCad, although I trust in my learning abilities if I ever need to use this kind of program, like I did in my first year at INSA.
       </p>
+    </div>
+    <div class="col-md-8">
+      <table class="table-striped table table-bordered tablecourses">
+        <thead class="tablenames">
+          <tr class="maincolorbg">
+            <th><span class="ml-2 mt-0 whitecolo multiline-prop">Skill</span></th>
+            <th><span class="ml-2 mt-0 whitecolo multiline-prop">Required level</span></th>
+            <th><span class="ml-2 mt-0 whitecolo multiline-prop">Self-evaluation</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="ml-2 multiline-prop"><b>Introduction to sensors</b></span></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><span class="ml-2 multiline-prop">Understand basic notions of sensors, data acquisition:
+               physics, electronics and metrology point of view</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">4</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">4</span></td>
+          </tr>
+          <tr>
+            <td><span class="ml-2 multiline-prop">Be able to manufacture a nano-particles sensor using micro-electronics 
+              tools: chemical synthesis, assembly, testing</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">4</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">4</span></td>
+          </tr>
+          <tr>
+            <td><span class="ml-2 multiline-prop">Be able to design the datasheet of the sensor manufactured</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">3</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">3</span></td>
+          </tr>
+
+          <tr>
+            <td class="pb-2"></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><span class="ml-2 multiline-prop"><b>Microcontrollers and Open Source Hardware</b></span></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><span class="ml-2 multiline-prop">Understand microcontroller archictecture and how to use them</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">3</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">4</span></td>
+          </tr>
+          <tr>
+            <td><span class="ml-2 multiline-prop">Be able to design data acquisition system 
+              (sensor, conditioner, microcontroller) with respect to the application</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">3</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">3</span></td>
+          </tr>
+          <tr>
+            <td><span class="ml-2 multiline-prop">Be able to design the electronic circuit of a sensor’s signal 
+              conditioner (design + simulation)</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">3</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">3</span></td>
+          </tr>
+          <td><span class="ml-2 multiline-prop">Be able to design a shield to accommodate the gas sensor</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">3</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">2</span></td>
+          </tr>
+          <tr>
+            <td><span class="ml-2 multiline-prop">Be abe to design the sofware to use the gas sensor and its HMI</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">4</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">4</span></td>
+          </tr>
+          <tr>
+            <td><span class="ml-2 multiline-prop">Be able to combine all of the above mentioned components into a smart device</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">3</span></td>
+            <td style="text-align: center;"><span class="font-weight-bold">4</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
-<div class="divider"></div>
 
 
 </div>

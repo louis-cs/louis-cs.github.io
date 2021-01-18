@@ -599,6 +599,40 @@ h6,
   background-image: url("../../assets/img/communication.jpg");
 }
 
+.page-header-data{
+  height: 300px;
+  margin-top: 0px;
+  background-size: cover;
+  background-image: url("../../assets/img/data.jpg");
+}
+
+.page-header-humanities{
+  height: 300px;
+  margin-top: 0px;
+  background-size: cover;
+  background-image: url("../../assets/img/humanities.png");
+}
+.page-header-project{
+  height: 300px;
+  margin-top: 0px;
+  background-size: cover;
+  background-image: url("../../assets/img/project.jpg");
+}
+
+.page-header-middleware{
+  height: 300px;
+  margin-top: 0px;
+  background-size: cover;
+  background-image: url("../../assets/img/OM2M_logo.png");
+}
+
+.page-header-aime{
+  height: 300px;
+  margin-top: 0px;
+  background-size: cover;
+  background-image: url("../../assets/img/aime.jpg");
+}
+
 ul,
 ol {
   margin-top: 0;
